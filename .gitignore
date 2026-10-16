@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Dados (baixados/gerados — não versionar, ficam pesados)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Cópia bruta recebida dos autores, solta na raiz (duplicata da que já
+# está em data/raw/ — privada, o próprio paper diz que não publica dados;
+# ~7GB, nunca deve ir pra um repositório, ainda mais público)
+Banco de Dados Paper Taquari-Antas/
+Banco de Dados Paper Taquari-Antas.rar
+
+# Scripts internos do MapBiomas (acesso próprio, não é código nosso pra
+# redistribuir) — fica só local, documentado no claude.md
+mapbiomas/
+
+# Saídas geradas (mapas, modelos treinados)
+outputs/figures/*
+outputs/models/*
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+
+# Credenciais / Earth Engine
+.config/
+*earthengine*credentials*
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.vscode/

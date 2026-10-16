@@ -1,0 +1,27 @@
+# Sensoriamento remoto / geoprocessamento
+earthengine-api
+geemap
+geopandas
+rasterio
+shapely
+pyproj
+
+# Terreno derivado (HAND, distância à drenagem, TWI etc.)
+whitebox
+
+# Dados e ML
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+xgboost
+lightgbm
+catboost
+
+# Interpretação e visualização
+shap
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
