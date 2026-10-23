@@ -36,3 +36,7 @@ outputs/models/*
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Logs gerados automaticamente pelo CatBoost a cada treino (05_train.py /
+# 06_importance.py) — não é código nem saída útil, só artefato de runtime.
+catboost_info/
